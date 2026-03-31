@@ -3,17 +3,17 @@ import { Space_Grotesk, JetBrains_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const spaceGrotesk = Space_Grotesk({ 
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   variable: '--font-sans'
 });
-const jetbrainsMono = JetBrains_Mono({ 
+const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   variable: '--font-mono'
 });
 
 export const metadata: Metadata = {
-  title: 'Enthiran 2026 | Robotics & Coding Event',
+  title: 'Metacognition 2026 | Robotics & Coding Event',
   description: 'Join the ultimate robotics and coding showdown at Galgotias College of Engineering and Technology. Compete in IoT Innovation, Rocket League RC, RoboChef, and more!',
   generator: 'v0.app',
   icons: {
